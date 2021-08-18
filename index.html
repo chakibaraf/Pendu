@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>jeu mot mystere</title>
+</head>
+<body>
+  
+<div class="box">
+    <h1>  MOT MYSTERE</h1>
+    <img src="/image/dé.jpg" alt="image de dé">
+  <p class="rules">  Veuillez entrez une lettre . </p>
+  <div class="alert" id="alert"></div>
+  <p class="try_show" id="try_show"></p>
+  <form id="form" action="#">
+    <input class="prompt" id="prompt" type="text" />
+    <input class="send" id="send" type="submit" />
+    <input class="send hidden" id="restart" value="Recommencer" type="submit" />
+  </form>
+
+</div>
+<ul class="try_list" id="try_list">
+  <li class="start"> Essais &gt;</li>
+</ul>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
